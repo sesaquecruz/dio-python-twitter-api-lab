@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tweepy = "==4.13.0"
+pymongo = "==4.3.3"
+fastapi = "==0.94.1"
+uvicorn = "==0.21.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
